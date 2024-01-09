@@ -1937,3 +1937,16 @@ body.modal {
     border-radius: 50%;
   }
 }
+
+.toggle{
+  position: absolute;
+  top: 5%;
+  right: 5%;
+}
+
+.group-toggle{
+  display: flex;
+  gap: 2%;
+  justify-content: center;
+  align-items: center;
+}

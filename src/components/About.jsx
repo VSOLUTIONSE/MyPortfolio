@@ -92,7 +92,7 @@ const About = () => {
                   <div className="tokyo_progress">
                     <div className="progress_inner" data-value="95">
                       <span>
-                        <span className="label">Wedding Photography</span>
+                        <span className="label">Css3</span>
                         <span className="number">95%</span>
                       </span>
                       <div className="background">
@@ -104,7 +104,7 @@ const About = () => {
 
                     <div className="progress_inner" data-value="80">
                       <span>
-                        <span className="label">Lifestyle Photography</span>
+                        <span className="label">HTML5</span>
                         <span className="number">80%</span>
                       </span>
                       <div className="background">
@@ -116,8 +116,19 @@ const About = () => {
 
                     <div className="progress_inner" data-value="90">
                       <span>
-                        <span className="label">Family Photography</span>
+                        <span className="label">ReactJs</span>
                         <span className="number">90%</span>
+                      </span>
+                      <div className="background">
+                        <div className="bar">
+                        <div className="bar_in" style={{width: 90 + '%'}}></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="progress_inner" data-value="90">
+                      <span>
+                        <span className="label">Reduxtoolkit</span>
+                        <span className="number">80%</span>
                       </span>
                       <div className="background">
                         <div className="bar">
@@ -132,14 +143,14 @@ const About = () => {
 
                 <div className="right">
                   <div className="about_title">
-                    <h3>Certifications/Training</h3>
+                    
                   </div>
                   {/* END TITLE */}
                   <div className="tokyo_progress">
                     <div className="progress_inner" data-value="95">
                       <span>
-                        <span className="label">English</span>
-                        <span className="number">95%</span>
+                        <span className="label">NextJS</span>
+                        <span className="number">70%</span>
                       </span>
                       <div className="background">
                         <div className="bar">
@@ -150,7 +161,7 @@ const About = () => {
 
                     <div className="progress_inner" data-value="90">
                       <span>
-                        <span className="label">Japanese</span>
+                        <span className="label">Styled-Component</span>
                         <span className="number">90%</span>
                       </span>
                       <div className="background">
@@ -162,8 +173,19 @@ const About = () => {
 
                     <div className="progress_inner" data-value="85">
                       <span>
-                        <span className="label">Arabian</span>
+                        <span className="label">Firebase</span>
                         <span className="number">85%</span>
+                      </span>
+                      <div className="background">
+                        <div className="bar">
+                        <div className="bar_in" style={{width: 85 + '%'}}></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="progress_inner" data-value="85">
+                      <span>
+                        <span className="label">NodeJs</span>
+                        <span className="number">50%</span>
                       </span>
                       <div className="background">
                         <div className="bar">
@@ -185,14 +207,14 @@ const About = () => {
                 <ul>
                   <li>
                     <div className="list_inner">
-                      <h3>777+</h3>
+                      <h3>50+</h3>
                       <span>Projects Completed</span>
                     </div>
                   </li>
                   <li>
                     <div className="list_inner">
-                      <h3>3K</h3>
-                      <span>Happy Clients</span>
+                      <h3>80%</h3>
+                      <span>Growth rate</span>
                     </div>
                   </li>
                   <li>

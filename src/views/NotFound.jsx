@@ -8,7 +8,7 @@ const NotFound = () => {
         <div className="leftpart_inner">
           <div className="logo">
             <Link className="navbar-brand" to="/">
-              <img src="/assets/img/logo/dark.png" alt="brand" />
+              <img src="/assets/img/logo/vlogo.png" alt="brand" />
             </Link>
           </div>
           {/* END LOGO */}
@@ -46,14 +46,8 @@ const NotFound = () => {
       <footer className="footer-wrapper">
         <div className="copyright">
           <p>
-            &copy; 2021 Tokyo Created by
-            <a
-              href="https://themeforest.net/user/ib-themes"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Ib-Themes
-            </a>
+          {new Date().getFullYear()}
+          {" "}VarySoft Inc.
           </p>
         </div>
         {/* END COPYRIGHT */}

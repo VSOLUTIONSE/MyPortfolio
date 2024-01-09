@@ -6,6 +6,7 @@ import About from "../../components/About";
 import Portfolio from "../../components/Portfolio";
 import News from "../../components/News";
 import Contact from "../../components/Contact";
+import Toggle from "../../components/Toggle";
 
 const HomeLight = () => {
   return (
@@ -14,6 +15,8 @@ const HomeLight = () => {
         <TabList>
           {/* START LEFT MENU CONTENT */}
           <div className="leftpart">
+            <Toggle />
+
             <div className="leftpart_inner">
               <div className="logo">
                 <Link className="navbar-brand" to="/">
@@ -48,14 +51,14 @@ const HomeLight = () => {
                     />
                     <span className="menu_content">Portfolio</span>
                   </Tab>
-                  <Tab>
+                  {/* <Tab>
                     <img
                       className="svg"
                       src="/assets/img/svg/paper.svg"
                       alt="paper"
                     />
                     <span className="menu_content">News</span>
-                  </Tab>
+                  </Tab> */}
                   <Tab>
                     <img
                       className="svg"
@@ -70,8 +73,8 @@ const HomeLight = () => {
 
               <div className="copyright">
                 <p>
-                  &copy; {new Date().getFullYear()}<br /> VarySoft Inc.
-                  
+                  &copy; {new Date().getFullYear()}
+                  <br /> VarySoft Inc.
                 </p>
               </div>
               {/* END COPYRIGHT */}
@@ -101,9 +104,9 @@ const HomeLight = () => {
                 </TabPanel>
                 {/* END PORTFOLIO MENU TAB CONTENT */}
 
-                <TabPanel>
+                {/* <TabPanel>
                   <News />
-                </TabPanel>
+                </TabPanel> */}
                 {/* END NEWS MENU TAB CONTENT */}
 
                 <TabPanel>
