@@ -22,7 +22,7 @@ const About = () => {
           <div className="description_inner">
             <div className="left">
               <p>
-                Hello, I am an experienced and passionate frontend engineer with a product-focused approach, boasting over two years of hands-on experience. Originating as a design enthusiast, my journey seamlessly blends design expertise with cutting-edge frontend development skills. I love to craft visually striking interfaces that prioritize user-centric design without compromising on robust functionality.
+                I am an experienced and passionate frontend engineer with a product-focused approach, boasting over two years of hands-on experience. Originating as a design enthusiast, my journey seamlessly blends design expertise with cutting-edge frontend development skills. I love to craft visually striking interfaces that prioritize user-centric design without compromising on robust functionality.
               </p>
               <div className="tokyo_tm_button">
                 <button onClick={toggleModal} className="ib-button">
