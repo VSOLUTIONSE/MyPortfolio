@@ -6,8 +6,7 @@ const SocialShare = [
     link: "https://web.facebook.com/favourmmy",
   },
   { iconName: "twitter", link: "https://twitter.com/FOEmmanuel2" },
-  { iconName: "linkedin", link: "www.linkedin.com/in/favour-emmanuel-183226161" },
-
+  { iconName: "linkedin", link: "https://linkedin.com/in/favour-emmanuel-183226161"},
 ];
 const Social = () => {
   return (
