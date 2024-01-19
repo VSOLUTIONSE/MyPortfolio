@@ -92,7 +92,7 @@ const About = () => {
                   <div className="tokyo_progress">
                     <div className="progress_inner" data-value="95">
                       <span>
-                        <span className="label">Css3</span>
+                        <span className="label">Css3/Scss</span>
                         <span className="number">95%</span>
                       </span>
                       <div className="background">
