@@ -19,7 +19,7 @@ const Home = () => {
           <div className="details">
             <h3 className="name">Emmanuel F.O</h3>
             <p className="job">
-              Hi, Am Favour Emmanuel a Creative and highly skilled Frontend Engineer, poised with Problem solving and Productivity as watch word. I love to craft Visually stunning interfaces, while staying up-to date with latest technologies.
+              Hi, am Favour Emmanuel a Creative and highly skilled Web Developer, poised with Problem solving and Productivity as watch word. I love to craft Visually stunning interfaces, while staying up-to date with latest technologies.
             </p>
             {/* END JOB */}
             <Social />
